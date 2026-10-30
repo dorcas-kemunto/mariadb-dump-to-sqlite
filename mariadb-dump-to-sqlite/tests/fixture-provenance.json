@@ -1,0 +1,171 @@
+{
+  "image": "mariadb:11.4@sha256:d1891ede5a559f1086f55053bb8cc1569b0298338c4d72d71725a7f74f6ba620",
+  "server_version": "11.4.13-MariaDB-ubu2404",
+  "fixtures": [
+    {
+      "case": "college_00",
+      "public": true,
+      "dump_sha256": "5df606480146e1fe54e50f32694c729bea6509e2dd0c9e52fc4b63f5e174f4bc",
+      "bytes": 24532,
+      "tables": 6,
+      "rows": 127,
+      "options": []
+    },
+    {
+      "case": "college_01",
+      "public": true,
+      "dump_sha256": "8801dba76317e29ac06f42d06cecef16bbfe234473ee52e1c709c9ca5e682372",
+      "bytes": 30435,
+      "tables": 6,
+      "rows": 132,
+      "options": [
+        "--hex-blob"
+      ]
+    },
+    {
+      "case": "college_02",
+      "public": true,
+      "dump_sha256": "f0286e58ab88a3a23cb397767ed165a4b8617d7ddec2d344fb5558e4cb3de2c9",
+      "bytes": 26316,
+      "tables": 6,
+      "rows": 137,
+      "options": [
+        "--complete-insert"
+      ]
+    },
+    {
+      "case": "college_03",
+      "public": false,
+      "dump_sha256": "3846ae5d82ffbf1464ea5a482f68e6e9311498b9567a2b934e12be6eba7bebe2",
+      "bytes": 35801,
+      "tables": 8,
+      "rows": 150,
+      "options": [
+        "--skip-extended-insert"
+      ]
+    },
+    {
+      "case": "college_04",
+      "public": false,
+      "dump_sha256": "73fbd2f8ce43e27823f36b3f95b84a2519430385987e95329db5769b8cc63aa4",
+      "bytes": 34152,
+      "tables": 8,
+      "rows": 155,
+      "options": [
+        "--compact",
+        "--hex-blob"
+      ]
+    },
+    {
+      "case": "college_05",
+      "public": false,
+      "dump_sha256": "d537ae7ce533d53cc40b20ad193b97f13fb4be9e63623e3cdd80e10c3da2831d",
+      "bytes": 53530,
+      "tables": 8,
+      "rows": 160,
+      "options": [
+        "--complete-insert",
+        "--hex-blob",
+        "--skip-extended-insert"
+      ]
+    },
+    {
+      "case": "college_06",
+      "public": false,
+      "dump_sha256": "20371468e0800a73b35be94a91aa7cb3a0ca08762ede55beb06687662dfc59bb",
+      "bytes": 32674,
+      "tables": 8,
+      "rows": 165,
+      "options": []
+    },
+    {
+      "case": "college_07",
+      "public": false,
+      "dump_sha256": "96eec337862830b9697096f0f253ddd3a515f521179c38cea5d307abb651a129",
+      "bytes": 40753,
+      "tables": 8,
+      "rows": 170,
+      "options": [
+        "--hex-blob"
+      ]
+    },
+    {
+      "case": "college_08",
+      "public": false,
+      "dump_sha256": "df91d930b1081aa590ae8fabe0a59d23f0fcce1698d670d2c529953de8566e7e",
+      "bytes": 34277,
+      "tables": 8,
+      "rows": 175,
+      "options": [
+        "--complete-insert"
+      ]
+    },
+    {
+      "case": "college_09",
+      "public": false,
+      "dump_sha256": "1af049fc6596dec6a0ee20dd2bfae6760da54f58bb9706f61b9fe526402f5e11",
+      "bytes": 40825,
+      "tables": 8,
+      "rows": 180,
+      "options": [
+        "--skip-extended-insert"
+      ]
+    },
+    {
+      "case": "college_10",
+      "public": false,
+      "dump_sha256": "2feafec825056671472b8ade9d6687a73a59925ba74950b8537d85b065446aab",
+      "bytes": 39703,
+      "tables": 8,
+      "rows": 185,
+      "options": [
+        "--compact",
+        "--hex-blob"
+      ]
+    },
+    {
+      "case": "college_11",
+      "public": false,
+      "dump_sha256": "28391aeaa7e93bcb459a38132d2c8adcb7f99dcf9e2da1bf826fbe962fbe2b6e",
+      "bytes": 61933,
+      "tables": 8,
+      "rows": 190,
+      "options": [
+        "--complete-insert",
+        "--hex-blob",
+        "--skip-extended-insert"
+      ]
+    },
+    {
+      "case": "college_12",
+      "public": false,
+      "dump_sha256": "7964a561db97203fc26e0e1c7e35e14a83684bbda18a58a3872570ee452466b7",
+      "bytes": 36879,
+      "tables": 8,
+      "rows": 195,
+      "options": []
+    },
+    {
+      "case": "college_13",
+      "public": false,
+      "dump_sha256": "72a52a6c8c9fa386b64e8d1ca3ef6a29c5650e3c76fd401c053f73a6c685c37a",
+      "bytes": 8001751,
+      "tables": 8,
+      "rows": 17752,
+      "options": [
+        "--hex-blob"
+      ]
+    },
+    {
+      "case": "college_14",
+      "public": false,
+      "dump_sha256": "474e60cbb0aa941c2e919e2869f07bdb583899a430a6044568341cf6def3605e",
+      "bytes": 34457,
+      "tables": 8,
+      "rows": 156,
+      "options": [
+        "--complete-insert"
+      ]
+    }
+  ]
+}
